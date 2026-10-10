@@ -1,2 +1,3 @@
+# 致富模拟器 1.5.1 Windows x64 便携包的 SHA-256 校验值。
+# 对应发布页的 WealthTrainer-1.5.1-win-x64.zip；校验方法见 USER-GUIDE.md。
 0616fec15c926a75c0864948d9589a8be4cff37ac54846ed8ea3d89de5a68f5f  WealthTrainer-1.5.1-win-x64.zip
-
