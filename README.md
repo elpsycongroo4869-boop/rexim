@@ -6,6 +6,8 @@
 
 **免费下载与使用 · 本地快速加载 · 离线训练 · 解压即用**
 
+**关键词：A股模拟器 · 股票模拟器 · 模拟炒股软件 · K线训练 · 股票回放。**
+
 [下载 Windows 便携版](https://github.com/elpsycongroo4869-boop/rexim/releases/latest) · [使用指南](USER-GUIDE.md) · [更新记录](CHANGELOG.md) · [反馈问题](https://github.com/elpsycongroo4869-boop/rexim/issues)
 
 ![A股K线回放训练：逐根推进行情，左侧账户、中央图表、右侧模拟交易](https://github.com/elpsycongroo4869-boop/rexim/releases/download/v1.5.1/replay-overview.png)
@@ -54,4 +56,3 @@
 - 本版未进行商业代码签名。请从本仓库 Releases 下载，按附件校验文件核对，不要关闭系统安全防护。
 
 详细的操作、快捷键、备份、升级、校验和常见问题见 [使用指南](USER-GUIDE.md)。本仓库仅发布软件与说明，不单独发布开发源码或个人存档；第三方依赖保留原有许可文件。
-
