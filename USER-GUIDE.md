@@ -7,7 +7,7 @@
 ## 下载与启动
 
 1. 打开 [最新版本](https://github.com/elpsycongroo4869-boop/rexim/releases/latest)。
-2. 在 **Assets** 中下载 `WealthTrainer-1.5.1-win-x64.zip`。不要选择 GitHub 自动生成的 `Source code`，它不是可运行的软件。
+2. 在 **Assets** 中下载 `WealthTrainer-1.5.2-win-x64.zip`。不要选择 GitHub 自动生成的 `Source code`，它不是可运行的软件。
 3. 将整个 ZIP 解压到一个有写入权限的文件夹。
 4. 双击文件夹中的 `致富模拟器.exe`。
 
@@ -25,7 +25,7 @@
 - 持仓止盈止损可输入百分比，或在图上分别拖动对应水平线；清除一条线不会清除另一条。
 - 成交量、MACD、KDJ、RSI 使用独立指标窗格，可调整高度、排序、收起、放大和移除。
 - 主图与副图的时间轴、缩放、十字光标联动；信号库可用于观察历史信号，不代表推荐买卖。
-- 配色默认红涨绿跌，可切换为绿涨红跌；图表专注模式可临时隐藏左右侧栏。
+- 配色默认红涨绿跌，可切换为绿涨红跌；一次修改作用于所有股票与蜡烛图分屏，立即保存到本地档案，关闭重开仍保留。图表专注模式可临时隐藏左右侧栏。
 
 非输入状态下，`→` 推进下一根，`空格` 播放/暂停，`/` 进入选股；输入、弹窗及拖动过程中不触发回放快捷键。`Esc` 可还原专注图表或放大的指标窗格。
 
@@ -57,7 +57,7 @@
 
 **Windows 显示未知发布者？**
 
-本版未进行商业代码签名。请确认下载自本仓库 Releases，使用附件 `SHA256SUMS.txt` 核对文件；不要关闭系统防护，也不要忽略明确的恶意软件告警。
+本版未进行商业代码签名。请确认下载自本仓库 Releases，使用附件 `WealthTrainer-1.5.2-win-x64.zip.sha256` 核对文件；不要关闭系统防护，也不要忽略明确的恶意软件告警。
 
 **程序无法启动或提示缺少文件？**
 
@@ -77,13 +77,13 @@
 
 ## 文件校验
 
-发布附件包含 `SHA256SUMS.txt`。Windows PowerShell 可计算 ZIP 的校验值：
+发布附件包含 `WealthTrainer-1.5.2-win-x64.zip.sha256`。Windows PowerShell 可计算 ZIP 的校验值：
 
 ```powershell
-Get-FileHash -LiteralPath '.\WealthTrainer-1.5.1-win-x64.zip' -Algorithm SHA256
+Get-FileHash -LiteralPath '.\WealthTrainer-1.5.2-win-x64.zip' -Algorithm SHA256
 ```
 
-将结果与 `SHA256SUMS.txt` 对照一致后再解压。本地说明见包内 `使用说明.txt`，完整历史更新记录见包内 `更新记录.txt`，仓库版本摘要见 [CHANGELOG.md](CHANGELOG.md)。
+将结果与 `WealthTrainer-1.5.2-win-x64.zip.sha256` 对照一致后再解压。本地说明见包内 `使用说明.txt`，完整历史更新记录见包内 `更新记录.txt`，仓库版本摘要见 [CHANGELOG.md](CHANGELOG.md)。
 
 ## 声明
 
